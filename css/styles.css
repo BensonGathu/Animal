@@ -1,0 +1,42 @@
+.animals {
+    border-top: solid #008542 2px;
+    border-bottom: solid #FFE000 2px;
+    border-left: solid #E70001 2px;
+    border-right: solid #E70001 2px;
+    padding: 6px;
+    margin: 5px;
+   
+}
+
+h1 {
+    text-align: center;
+}
+#Dogs {
+    float: right;
+    width: 450px;
+    margin-right: 25px;
+
+}
+
+#Cats {
+    float: left;
+    width: 450px;
+    margin-left: 25px;
+}
+
+/* inheritance */
+ul {
+    color: brown;
+}
+
+/* cascading */
+
+#Dog p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+#Cats p{
+    font-family: Verdana;
+    font-weight: bolder;
+}
